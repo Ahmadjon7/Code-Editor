@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDNJS link to  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css link to  -->
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Code Editor Html Css and Js</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="left">
+            <div>
+                <label for="html">
+                    <i class="fab fa-html5"></i>
+                    HTML
+                </label>
+                <textarea name="html" id="html"></textarea>
+            </div>
+            <div>
+                <label for="css">
+                    <i class="fab fa-css3-alt"></i>
+                    CSS
+                </label>
+                <textarea name="css" id="css"></textarea>
+            </div>
+            <div>
+                <label for="js">
+                    <i class="fab fa-js-square"></i>
+                    JAVASCRIPT
+                </label>
+                <textarea name="js" id="js"></textarea>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="output">
+                <label for="output">
+                    <i class="fas fa-code"></i>
+                    Output
+                </label>
+                <iframe src="" id="output"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
